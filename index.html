@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Strid — Autonomous Carrier Systems</title>
+<meta name="description" content="Strid builds STRID One, an autonomous mothership that deploys expendable drones on the objective and returns home. Engineered in Oslo, built for the Ukrainian frontline." />
+<!-- strid.defense is a placeholder domain (matches the ops@strid.defense contact
+     address already used sitewide) — swap for the real production domain once one exists. -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Strid — Autonomous Carrier Systems" />
+<meta property="og:description" content="Strid builds STRID One, an autonomous mothership that deploys expendable drones on the objective and returns home. Engineered in Oslo, built for the Ukrainian frontline." />
+<meta property="og:image" content="https://strid.defense/assets/hero-lightning.webp" />
+<meta property="og:url" content="https://strid.defense/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Strid — Autonomous Carrier Systems" />
+<meta name="twitter:description" content="Strid builds STRID One, an autonomous mothership that deploys expendable drones on the objective and returns home." />
+<meta name="twitter:image" content="https://strid.defense/assets/hero-lightning.webp" />
+<link rel="canonical" href="https://strid.defense/" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23E7E5DF%22/><path d=%22M20 58 L50 28 L80 58 L50 47 Z%22 fill=%22%238C2323%22/></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=6" />
+</head>
+<body>
+
+<div class="noise" aria-hidden="true"></div>
+
+<!-- Utility bar -->
+<div class="util-bar">
+  <div class="wrap util-bar-inner">
+    <span>STRID // OSLO, NORWAY</span>
+    <span id="osloClock">OSLO —:—:—</span>
+  </div>
+</div>
+
+<header>
+  <nav class="wrap">
+    <a href="#top" class="logo">STRID</a>
+    <div class="nav-links">
+      <a href="#thesis">Thesis</a>
+      <a href="#product">Product</a>
+      <a href="#mission">Mission</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary">Request Briefing <span class="arrow">→</span></a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#thesis">Thesis</a>
+  <a href="#product">Product</a>
+  <a href="#mission">Mission</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-primary">Request Briefing <span class="arrow">→</span></a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div id="strid-hero-canvas" class="hero-canvas-layer" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="wrap hero-wrap">
+      <div class="hero-copy">
+        <h1 class="reveal-mask"><span>Advancing the frontline for allied forces.</span></h1>
+        <div class="hero-ctas reveal">
+          <a href="#contact" class="btn btn-primary">Request briefing <span class="arrow">→</span></a>
+          <a href="#thesis" class="link-arrow">Read the thesis <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-hint" aria-hidden="true">
+      <span class="hero-hint-dot"></span>
+      Move your cursor over the image
+    </div>
+  </section>
+
+  <!-- 01 THESIS -->
+  <section class="thesis" id="thesis">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">01 — The thesis</span>
+        <h2 class="reveal-mask"><span>Small drones won the argument.<br>They didn't win the math.</span></h2>
+      </div>
+      <div class="thesis-grid">
+        <p class="reveal">Expendable drone manufacturing is now a commodity. Hundreds of shops build quadcopters at falling unit prices — that fight is crowded, and it's not the one worth winning. The unresolved cost is everything else: long-range communications, jam-resistant autonomy, the ability to coordinate a swarm in contested airspace. Put that capability on a one-way airframe and you pay for it once, every single mission.</p>
+        <p class="reveal">A reusable carrier changes the arithmetic. It survives the mission, so the expensive part — the autonomy stack, the comms, the sensors — flies again and again instead of being thrown away. Cost per strike falls with every sortie the airframe survives. That's the lever. Not cheaper plastic.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 PRODUCT -->
+  <section class="product" id="product">
+    <div class="wrap product-wrap">
+      <div class="spec-sheet">
+        <span class="spec-sheet-title reveal">Spec sheet</span>
+        <div class="spec-rows">
+          <div class="spec-row reveal"><span>Program</span><span>STRID One</span></div>
+          <div class="spec-row reveal"><span>Class</span><span>Fixed-wing autonomous carrier</span></div>
+          <div class="spec-row reveal"><span>Status</span><span>In development</span></div>
+          <div class="spec-row reveal"><span>Recovery</span><span>Autonomous return-to-base</span></div>
+        </div>
+        <div class="spec-strip">
+          <span class="spec-strip-label reveal">Engineering targets — subject to change</span>
+          <div class="spec-grid">
+            <div class="spec reveal"><span class="spec-value" data-count="3.0" data-suffix="M">0M</span><span class="spec-label">Wingspan</span></div>
+            <div class="spec reveal"><span class="spec-value" data-count="4" data-suffix="×">0×</span><span class="spec-label">Payload bays</span></div>
+            <div class="spec reveal"><span class="spec-value spec-value-emphasis" data-count="60" data-suffix="%↓">0%↓</span><span class="spec-label">Target cost / strike</span></div>
+            <div class="spec reveal"><span class="spec-value" data-count="50" data-suffix="+">0+</span><span class="spec-label">Missions / airframe</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="product-body">
+        <span class="eyebrow reveal">02 — Product</span>
+        <h2 class="reveal-mask"><span>STRID One</span></h2>
+        <p class="reveal">A fixed-wing autonomous aircraft with a roughly three-metre wingspan, engineered as a mothership for smaller quadcopters. It flies to the objective under its own autonomy, releases its payload where it's needed, coordinates the swarm in the air — and returns home, ready to fly again. Because it survives the mission, it can carry communications and autonomy hardware an expendable airframe never could afford to lose.</p>
+        <span class="status reveal">In development</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 FRONTLINE -->
+  <section class="frontline" id="frontline">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">03 — Where we build</span>
+        <h2 class="reveal-mask"><span>Built for the frontline, from day one.</span></h2>
+      </div>
+      <p class="frontline-lead reveal">STRID One is being engineered through fast, iterative development cycles, with field testing planned on the Ukrainian frontline — the fastest-evolving drone-warfare environment on the planet — so the requirements come from the fight, not a lab. From there, we expand to the NATO states that feel this threat most directly.</p>
+      <svg class="frontline-motif reveal" viewBox="0 0 600 60" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M10 45 Q 300 62 590 15" class="frontline-motif-path"/>
+        <circle cx="10" cy="45" r="4" class="frontline-motif-node frontline-motif-node-active"/>
+        <circle cx="300" cy="47" r="3" class="frontline-motif-node"/>
+        <circle cx="590" cy="15" r="3" class="frontline-motif-node"/>
+      </svg>
+      <div class="phase-row">
+        <div class="phase reveal">
+          <span class="phase-num">Phase 01</span>
+          <span class="phase-name">Ukraine</span>
+          <span class="phase-desc">Iterative field development and testing on the frontline.</span>
+        </div>
+        <div class="phase reveal">
+          <span class="phase-num">Phase 02</span>
+          <span class="phase-name">NATO frontline states</span>
+          <span class="phase-desc">Finland, Romania, the Baltics — closest to the threat.</span>
+        </div>
+        <div class="phase reveal">
+          <span class="phase-num">Phase 03</span>
+          <span class="phase-name">Allied expansion</span>
+          <span class="phase-desc">Broader NATO and allied deployment.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 MISSION -->
+  <section class="mission" id="mission">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow reveal">04 — Mission</span>
+        <h2 class="reveal-mask"><span>One doctrine. Every domain.</span></h2>
+      </div>
+      <p class="reveal">STRID One is the first proof of a broader idea: expendable systems get cheaper every year, but getting them to the fight doesn't. Strid is built around a single doctrine — autonomous carriers that survive the mission — applied wherever attrition warfare happens next.</p>
+      <svg class="mission-motif reveal" viewBox="0 0 600 32" preserveAspectRatio="none" aria-hidden="true">
+        <line x1="0" y1="16" x2="600" y2="16" class="mission-motif-line"/>
+        <circle cx="20" cy="16" r="4" class="mission-motif-node mission-motif-node-active"/>
+        <circle cx="165" cy="16" r="3" class="mission-motif-node"/>
+        <circle cx="310" cy="16" r="3" class="mission-motif-node"/>
+        <circle cx="455" cy="16" r="3" class="mission-motif-node"/>
+        <circle cx="580" cy="16" r="3" class="mission-motif-node"/>
+      </svg>
+      <div class="domain-row">
+        <span class="domain domain-active reveal"><span class="domain-name">Air</span><span class="domain-status">Active — STRID One</span></span>
+        <span class="domain reveal"><span class="domain-name">Land</span><span class="domain-status">Next</span></span>
+        <span class="domain reveal"><span class="domain-name">Sea</span><span class="domain-status">Next</span></span>
+        <span class="domain reveal"><span class="domain-name">Subsea</span><span class="domain-status">Future</span></span>
+        <span class="domain reveal"><span class="domain-name">Space</span><span class="domain-status">Future</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <span class="eyebrow reveal">05 — Contact</span>
+      <h2 class="reveal-mask"><span>Let's talk.</span></h2>
+      <p class="contact-lead reveal">For investors, press, and allied defense procurement.</p>
+      <div class="contact-grid">
+        <div class="contact-item reveal">
+          <span class="contact-label">Email</span>
+          <a class="contact-value" href="mailto:ops@strid.defense">ops@strid.defense</a>
+        </div>
+        <div class="contact-item reveal">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Oslo, Norway</span>
+        </div>
+      </div>
+      <a href="mailto:ops@strid.defense" class="btn btn-primary contact-cta reveal">Request briefing <span class="arrow">→</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-wrap">
+    <div class="footer-logo">STRID</div>
+    <div class="footer-links">
+      <a href="#thesis">Thesis</a>
+      <a href="#product">Product</a>
+      <a href="#mission">Mission</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-copy">© 2026 Strid — Oslo, Norway</div>
+  </div>
+</footer>
+
+<script src="script.js?v=4"></script>
+</body>
+</html>
