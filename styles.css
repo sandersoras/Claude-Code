@@ -89,10 +89,19 @@ nav.wrap {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+.logo-mark {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: block;
 }
 
 .nav-links {
@@ -677,10 +686,18 @@ footer {
   flex-wrap: wrap;
 }
 .footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.04em;
   color: var(--ink-faint);
+}
+.footer-logo .logo-mark {
+  width: 16px;
+  height: 16px;
+  opacity: 0.85;
 }
 .footer-links {
   display: flex;
